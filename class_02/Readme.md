@@ -15,21 +15,18 @@ The latest ECMAScript standard defines eight data types:
     5. undefined: A top-level property whose value is not defined.
 
 ## Type Hinting:
-* Type hinting in TypeScript specifies the expected data types of variables. It makes your code safer and easier to understand.
-
-    const name: string = "Alice";
-    const age: number = 30;
+Type hinting in TypeScript specifies the expected data types of variables. It makes your code safer and easier to understand.
+ const name: string = "Alice";
+ const age: number = 30;
 
 ## Variable Naming Convention:
-
-    Proper naming conventions make code more readable and maintainable.
+Proper naming conventions make code more readable and maintainable.
 
 ### General naming rule:
-
-    1. Use camelCase for variables.
-    2. Avoid using single-letter variable names (e.g., x, y), except in loops.
-    3. Don't use number in the start of variables name. (e.g var 2name = "welcome")
-    4. Don't use reserved words for variables name. (e.g var let)
+1. Use camelCase for variables.
+2. Avoid using single-letter variable names (e.g., x, y), except in loops.
+3. Don't use number in the start of variables name. (e.g var 2name = "welcome")
+4. Don't use reserved words for variables name. (e.g var let)
 
 
 ## Difference Between var, let, and const:
@@ -41,25 +38,19 @@ The latest ECMAScript standard defines eight data types:
     age = 34 (throw an error)
 
 ## Finding Variable Data type:
-    Use the word "typeof" with the specific variable name and print, it show the variable data type.
-
-        let my_roll = 23
-        console.log(typeof my_roll) 
+Use the word "typeof" with the specific variable name and print, it show the variable data type.
+    let my_roll = 23
+    console.log(typeof my_roll) 
 
 # Important Commands:
+The following are the command for creating files of "tsconfig.json" and "package.json".
+For tsconfig.json:
+    tsc --init
 
-    The following are the command for creating files of "tsconfig.json" and "package.json".
+For package.json:
+    npm init -y
 
-    For tsconfig.json:
+For running the files of typescript and javascript with single command:
+    tsc && node fileName.js  
 
-        tsc --init
-
-    For package.json:
-
-        npm init -y
-
-    For running the files of typescript and javascript with single command:
-
-        tsc && node fileName.js  
-
-        change the fileName with your javascript file name.
+* change the fileName with your javascript file name.
