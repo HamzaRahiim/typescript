@@ -8,11 +8,11 @@
 ## Data types:
 The latest ECMAScript standard defines eight data types:
 * Seven data types that are primitives: (But in today class we only cover the five)
-    1. Boolean: true and false.
-    2. Number: An integer or floating point number. For example: 42 or 3.14159.
-    3. String: A sequence of characters that represent a text value. For example: "Howdy".
-    4. null: A special keyword denoting a null value. 
-    5. undefined: A top-level property whose value is not defined.
+1. Boolean: true and false.
+2. Number: An integer or floating point number. For example: 42 or 3.14159.
+3. String: A sequence of characters that represent a text value. For example: "Howdy".
+4. null: A special keyword denoting a null value. 
+5. undefined: A top-level property whose value is not defined.
 
 ## Type Hinting:
 Type hinting in TypeScript specifies the expected data types of variables. It makes your code safer and easier to understand.
@@ -44,6 +44,7 @@ Use the word "typeof" with the specific variable name and print, it show the var
 
 # Important Commands:
 The following are the command for creating files of "tsconfig.json" and "package.json".
+
 For tsconfig.json:
 
     tsc --init
