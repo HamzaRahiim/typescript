@@ -16,8 +16,8 @@ The latest ECMAScript standard defines eight data types:
 
 ## Type Hinting:
 Type hinting in TypeScript specifies the expected data types of variables. It makes your code safer and easier to understand.
- const name: string = "Alice";
- const age: number = 30;
+1. const name: string = "Alice";
+2. const age: number = 30;
 
 ## Variable Naming Convention:
 Proper naming conventions make code more readable and maintainable.
@@ -45,12 +45,15 @@ Use the word "typeof" with the specific variable name and print, it show the var
 # Important Commands:
 The following are the command for creating files of "tsconfig.json" and "package.json".
 For tsconfig.json:
+
     tsc --init
 
 For package.json:
+
     npm init -y
 
 For running the files of typescript and javascript with single command:
+
     tsc && node fileName.js  
 
 * change the fileName with your javascript file name.
