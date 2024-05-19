@@ -1,4 +1,4 @@
-### Today Topics:
+## Today Topics:
 
 - Union Types
 - plus operator's role with string and other data type.
@@ -98,3 +98,8 @@ console.log(result); // 'b is greater'
 
 In this example, we use the ternary operator to check if 'a' is greater than 'b'. If the condition is true, 'a is greater' is printed. If false, 'b is greater' is printed.
 
+### Assignment No 1:
+
+* Please Visit to assignment section and complete your first task, use the given link to visit directly.
+
+    https://github.com/HamzaRahiim/typescript/ASSIGNEMENTS/task_01
