@@ -102,4 +102,4 @@ In this example, we use the ternary operator to check if 'a' is greater than 'b'
 
 * Please Visit to assignment section and complete your first task, use the given link to visit directly.
 
-    https://github.com/HamzaRahiim/typescript/ASSIGNEMENTS/task_01
+    https://github.com/HamzaRahiim/typescript/tree/main/ASSIGNMENTS/task_01
