@@ -50,4 +50,21 @@ console.log(timestampDate.getFullYear()); // Get the year of the date
 
 // }
 
+// class Student {
+//   name: string;
+//   age: number;
+//   grade: string;
+//   constructor(studentName: string, studentAge: number, studentGrade: string) {
+//     this.age = studentAge;
+//     this.grade = studentGrade;
+//     this.name = studentName;
+//   }
+// }
+
+// let student1 = new Student("Hubaish", 23, "A");
+// let student2 = new Student("hamza", 23, "D");
+// let student3 = new Student("ali", 25, "B");
+
+// console.log(student1, student2, student3);
+
 // *********************** Class Inheritance *****************

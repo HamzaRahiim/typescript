@@ -91,9 +91,11 @@ This structure makes it easier to manage user data and provides clear pathways (
 In TypeScript, the class members (fields and methods) can be defined with three specific access modifiers: `public`, `private`, and `protected`. These modifiers determine the accessibility of class members within the class itself and by instances of the class. Here's a brief overview of each:
 
 1. **Public**:
+
    - **Description**: Members declared as `public` are accessible from any location where the class object is accessible.
    - **Default**: This is the default access level for class members if no modifier is explicitly specified.
    - **Usage Example**:
+
      ```tsx
      class Employee {
        public name: string;
@@ -111,9 +113,12 @@ In TypeScript, the class members (fields and methods) can be defined with three 
      console.log(emp.name); // Accessible
      emp.displayInfo(); // Accessible
      ```
+
 2. **Private**:
+
    - **Description**: Members declared as `private` are only accessible within the class that defines them. TypeScript enforces this at compile time.
    - **Usage Example**:
+
      ```tsx
      class Employee {
        private salary: number;
@@ -131,9 +136,12 @@ In TypeScript, the class members (fields and methods) can be defined with three 
      // console.log(emp.salary); // Error: 'salary' is private and only accessible within class 'Employee'.
      emp.displaySalary(); // Accessible
      ```
+
 3. **Protected**:
+
    - **Description**: Members declared as `protected` are accessible within the class itself and by instances of subclasses. This is typically used when there is a need to hide information from the general public but allow access for modification and usage by child classes.
    - **Usage Example**:
+
      ```tsx
      class Employee {
        protected department: string;
@@ -225,3 +233,9 @@ myCar.displayDetailedInfo(); // Accessing child class method
 - **Simplicity**: Simplifies the codebase by splitting complex classes into more manageable, hierarchical structures.
 
 Inheritance is a powerful feature in TypeScript that helps developers organize and structure their code more effectively, promoting maintainability and scalability in large applications.
+
+## Assignment No 3:
+
+- Please visit to the following link to complete the assignment:
+
+  https://github.com/HamzaRahiim/typescript/tree/main/ASSIGNMENTS/task_03
