@@ -1,10 +1,10 @@
-### Today, Topics:
+## Today, Topics:
 
 - Encapsulation
 - Polymorphism
 - Abstraction
 
-### 1. Encapsulation
+## 1. Encapsulation
 
 **Encapsulation** is the concept of wrapping data (variables) and code (methods) together into a single unit called a class. It helps to hide the internal state of the object from the outside and only expose what is necessary. This is done using access modifiers like `private`, `protected`, and `public`.
 
@@ -38,7 +38,7 @@ console.log(person.getName()); // getting the new name, Outputs: Bob
 
 Here, `name` is a private variable, and it cannot be accessed directly from outside the class. Instead, we use `getName` and `setName` methods to interact with it.
 
-### 2. Polymorphism
+## 2. Polymorphism
 
 **Polymorphism** means "many forms".
 
@@ -77,7 +77,7 @@ myAnimal.makeSound(); // Outputs: Meow
 
 In this example, `makeSound` method behaves differently based on the object (Dog or Cat) that calls it.
 
-### 3. Abstraction
+## 3. Abstraction
 
 **Abstraction** is the concept of hiding the complex implementation details and showing only the essential features of the object. It can be achieved using abstract classes and interfaces.
 
